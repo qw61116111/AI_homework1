@@ -250,7 +250,7 @@ if __name__ == '__main__':
                         test_out=net(test_input)
                         pred.append(test_out)
     
-                        if(i!=0 and 1):
+                        if(i!=0 ):
                             writer = csv.writer(csvfile)
                             writer.writerow([date+i, test_out.item()])
 
