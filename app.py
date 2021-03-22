@@ -253,6 +253,9 @@ if __name__ == '__main__':
                         if(i!=0 ):
                             writer = csv.writer(csvfile)
                             writer.writerow([date+i, test_out.item()])
+                        else:
+                            writer = csv.writer(csvfile)
+                            writer.writerow(['date','operating_reserve(MW)'])
 
                         for i in range(num_day):
                             if(i!=num_day-1):
