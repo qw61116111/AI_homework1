@@ -5,7 +5,10 @@
 以下我針對我的code做一些講解
 
 每張圖在進行訓練的時候，我都有先做normalized的處理，並且maen跟std是之前就先用numpy算好並寫在那邊的
+
 ![image](https://github.com/qw61116111/AI_homework1/blob/main/image/mean.jpg)
 
 接下來是我的dataset的處裡
+遞一部分我把圖都讀進來，並且用for迴圈對每張圖進行減平均除標準差的normalized
+
 ![image](https://github.com/qw61116111/AI_homework1/blob/main/image/dataset.jpg)
