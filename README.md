@@ -19,3 +19,9 @@
 ![image](https://github.com/qw61116111/AI_homework1/blob/main/image/para.jpg)
 
 ![image](https://github.com/qw61116111/AI_homework1/blob/main/image/lstm.jpg)
+
+
+最後開始預測3/23~3/29的方式是，先用3/16~3/22預測3/23，
+再把資料往明天做平移，變成用3/17~3/23去預測3/24，其中3/23的資料是用的是我預測的值
+以下為平移的code
+![image](https://github.com/qw61116111/AI_homework1/blob/main/image/out.jpg)
